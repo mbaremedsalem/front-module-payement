@@ -1,0 +1,27 @@
+<div class="card user-card">
+    <div class="user-info">
+      <h2>Hi! {{ user.name }}</h2>
+      <p style="font-size: 55px;"> {{ user.balance }} {{ selectedCurrency }}</p>
+
+      <select style="width: 70px;" id="currency" [(ngModel)]="selectedCurrency">
+        <option *ngFor="let currency of currencies">{{ currency }}</option>
+      </select>
+      
+      <div class="last-transactions">
+        <h3>Last Transactions</h3>
+        <ul>
+          <li *ngFor="let transaction of lastTransactions">
+            {{ transaction }}
+          </li>
+        </ul>
+      </div>
+
+      <div class="actions">    
+        <button class="btn">Transfer Money</button>
+        <button class="btn">Receive Money</button>
+        <button class="btn">All Cards</button>
+      </div>
+    </div>
+  </div>
+  
+  

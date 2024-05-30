@@ -1,0 +1,55 @@
+.card {
+    background-color: #5538D9; /* Couleur de fond de la carte */
+    color: white; /* Couleur du texte */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .user-info h2, .user-info p, .user-info label, .user-info h3, .user-info ul {
+    color: white; /* Couleur du texte */
+  }
+  
+  .user-info select {
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .last-transactions {
+    margin: 10px 0;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .actions .btn {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px 15px;
+    background-color: #14121a41; /* Couleur de fond des boutons */
+    color: white; /* Couleur du texte des boutons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .actions .btn:hover {
+    background-color: #29333b; /* Couleur de fond au survol des boutons */
+  }
+  

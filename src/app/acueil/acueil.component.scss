@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-section {
+    width: 70%;
+    padding: 10px;
+  }
+  
+  .right-section {
+    width: 30%;
+    padding: 10px;
+    height: 100%;
+  }
+  .button-section{
+    padding: 20px;
+    width: 100%;
+  }
